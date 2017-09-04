@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+* {
+  font-family: 'Righteous';
+  color: #A7B1C0;
+}
+
+div {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;l
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #162737;
+}
+
+#timeSpan {
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-shadow: 0 1px 0px black;
+  width: 440px;
+}
+
+#dateSpan {
+  margin-left: 15px;
+}
